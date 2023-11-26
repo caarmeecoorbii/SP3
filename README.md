@@ -8,7 +8,7 @@ Aquest és el codi que he implementat:
 
 class ConversorVideo:
     def __init__(self, input_file):
-        # Inicialitza la classe amb el fitxer d'entrada i llistes buides per a resolucions, escalas i formats.
+        # Inicialitza la classe amb el fitxer d'entrada i llistes buides per a resolucions, escales i formats.
         self.input_file = input_file
         self.resolucions = []
         self.escalas = {}
@@ -77,7 +77,7 @@ def main():
     formats = formats_str.split()
 
     if not formats:
-        print("No s'han proporcionat formats. Sortint.")
+        print("No s'han proporcionat formats.")
         return
 
     # Afegeix els formats especificats i realitza la conversió del vídeo.
