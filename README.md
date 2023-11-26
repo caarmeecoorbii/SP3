@@ -91,7 +91,8 @@ if __name__ == "__main__":
 
    ```
 **Resultat de l'exercici 1:**
-En aquest exemple, es pot veure com s'obté una resolució de 720p en els formats h265 i vp9:
+En aquest exemple, es pot veure com s'obté una resolució de 720p en els formats h265 i vp9. Es creen dos vídeos diferents: **output_720p_libx254.mp4** i **output_720p_vp9.webm**. 
+
 ![](https://github.com/caarmeecoorbii/SP3/blob/main/SP3-Resultatex1.png)
 
 ```python
