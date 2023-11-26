@@ -90,6 +90,12 @@ if __name__ == "__main__":
     main()
 
    ```
+**Resultat de l'exercici 1:**
+
+```python
+# Executa l'exercici 1
+python3 ex1.py
+```
 
 ## Exercici 2: Comparació entre VP8 i VP9
 
