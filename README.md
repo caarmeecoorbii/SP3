@@ -152,8 +152,6 @@ VP9 té mides de bloc més grans (4x4 fins a 64x64 píxels) que VP8 (fixa en 16x
 VP9 introdueix tècniques de predicció del vector de moviment més avançades en comparació amb VP8. En VP9, es poden considerar diversos candidats de vectors de moviment per a cada bloc, i se selecciona el millor candidat basant-se en l'error de predicció més baix. Això permet una estimació i compensació de moviment més precisa, la qual cosa contribueix a la millora de l'eficiència de compressió de VP9.
 
 
-
-
 ```python
 # Executa l'exercici 2
 python3 ex2.py
@@ -161,5 +159,22 @@ python3 ex2.py
 
 
 ## Exercici 3: Creació GUI
+En aquest exercici, he creat una GUI amb l'ajuda de la llibreria Tkinter de Python. La finalitat d'aquesta GUI és crear una aplicació que donat una dimensió, redimensiona el vídeo d'entrada que selecciones.
+
+Aquesta és l'estructura que té la GUI:
+
+| Imagen 1 | Imagen 2 |
+|----------|----------|
+| ![Descripción 1](ruta/a/imagen1.jpg) | ![Descripción 2](ruta/a/imagen2.jpg) |
+| Imagen 3 | Imagen 4 |
+| ![Descripción 3](ruta/a/imagen3.jpg) | ![Descripción 4](ruta/a/imagen4.jpg) |
+
+
+
+```python
+# Executa l'exercici 3
+python3 ex3.py
+```
+
 
 ## Exercici 4: Funcionalitats Docker
