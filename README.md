@@ -134,6 +134,12 @@ if __name__ == "__main__":
     main()  # Executa la funció principal quan s'executa el script
 ```
 
+**Resultat de l'exercici 2:**
+
+El resultat d'aquest exercici és el vídeo **comparacio_vp8_vs_vp9.mp4**, aquí podem veure una frame d'aquest vídeo:
+
+![]()
+
 ```python
 # Executa l'exercici 2
 python3 ex2.py
