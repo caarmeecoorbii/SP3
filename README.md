@@ -159,7 +159,7 @@ python3 ex2.py
 
 
 ## Exercici 3: Creació GUI
-En aquest exercici, he creat una GUI amb l'ajuda de la llibreria Tkinter de Python. La finalitat d'aquesta GUI és crear una aplicació que donat una dimensió, redimensiona el vídeo d'entrada que selecciones.
+En aquest exercici, he creat una GUI amb l'ajuda de la llibreria Tkinter de Python. La finalitat d'aquesta GUI és crear una aplicació que donat una dimensió, redimensiona el vídeo d'entrada que selecciones. Tot el codi que he creat, està en l'script **ex3.py**. 
 
 Aquesta és l'estructura que té la GUI:
 
@@ -169,7 +169,7 @@ Aquesta és l'estructura que té la GUI:
 | **Redimensionar vídeo** | **Exit** |
 | ![Descripción 3](https://github.com/caarmeecoorbii/SP3/blob/main/redimensionarGUI.png) | ![Descripción 4](https://github.com/caarmeecoorbii/SP3/blob/main/exitGUI.png) |
 
-
+El vídeo de sortida té el nom **redimensionat_BigBuckBunny_SP3.mp4**.
 
 ```python
 # Executa l'exercici 3
