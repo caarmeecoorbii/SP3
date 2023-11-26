@@ -167,6 +167,7 @@ Aquesta és l'estructura que té la GUI:
 |----------|----------|
 | ![Descripción 1](https://github.com/caarmeecoorbii/SP3/blob/main/menuprincipalGUI.png) | ![Descripción 2](https://github.com/caarmeecoorbii/SP3/blob/main/selecciofitxerGUI.png) |
 | Redimensionar vídeo | Exit |
+|----------|----------|
 | ![Descripción 3](https://github.com/caarmeecoorbii/SP3/blob/main/redimensionarGUI.png) | ![Descripción 4](https://github.com/caarmeecoorbii/SP3/blob/main/exitGUI.png) |
 
 
