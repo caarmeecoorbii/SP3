@@ -163,11 +163,11 @@ En aquest exercici, he creat una GUI amb l'ajuda de la llibreria Tkinter de Pyth
 
 Aquesta és l'estructura que té la GUI:
 
-| Imagen 1 | Imagen 2 |
+| Menú principal | Selecció Vídeo Entrada |
 |----------|----------|
-| ![Descripción 1](ruta/a/imagen1.jpg) | ![Descripción 2](ruta/a/imagen2.jpg) |
-| Imagen 3 | Imagen 4 |
-| ![Descripción 3](ruta/a/imagen3.jpg) | ![Descripción 4](ruta/a/imagen4.jpg) |
+| ![Descripción 1](https://github.com/caarmeecoorbii/SP3/blob/main/menuprincipalGUI.png) | ![Descripción 2](https://github.com/caarmeecoorbii/SP3/blob/main/selecciofitxerGUI.png) |
+| Redimensionar vídeo | Exit |
+| ![Descripción 3](https://github.com/caarmeecoorbii/SP3/blob/main/redimensionarGUI.png) | ![Descripción 4](https://github.com/caarmeecoorbii/SP3/blob/main/exitGUI.png) |
 
 
 
