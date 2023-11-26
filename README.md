@@ -136,9 +136,23 @@ if __name__ == "__main__":
 
 **Resultat de l'exercici 2:**
 
-El resultat d'aquest exercici és el vídeo **comparacio_vp8_vs_vp9.mp4**, aquí podem veure una frame d'aquest vídeo:
+El resultat d'aquest exercici és el vídeo **comparacio_vp8_vs_vp9.mp4**, aquí podem veure un frame d'aquest vídeo (part esquerra - VP8 i part dreta- VP9):
 
-![]()
+![](https://github.com/caarmeecoorbii/SP3/blob/main/SP3-Resultatex2.png)
+
+Podem comparar els dos còdecs en diferents aspectes:
+
+**1. Eficiència de compressió** 
+VP9 té una compressió significativament millor que VP8, oferint qualitat semblant amb baixes taxes de bits, especialment útil per a la transmissió de vídeo d'alta resolució a través d'internet. En mitjana, VP9 pot proporcionar entre un 30-50% millor compressió que VP8, depenent del contingut i la configuració.
+
+**2. Mides de bloc**
+VP9 té mides de bloc més grans (4x4 fins a 64x64 píxels) que VP8 (fixa en 16x16 píxels), permetent una millor adaptació a continguts variats i millorant la compressió i qualitat visual.
+
+**3. Predicció vector del moviment**
+VP9 introdueix tècniques de predicció del vector de moviment més avançades en comparació amb VP8. En VP9, es poden considerar diversos candidats de vectors de moviment per a cada bloc, i se selecciona el millor candidat basant-se en l'error de predicció més baix. Això permet una estimació i compensació de moviment més precisa, la qual cosa contribueix a la millora de l'eficiència de compressió de VP9.
+
+
+
 
 ```python
 # Executa l'exercici 2
