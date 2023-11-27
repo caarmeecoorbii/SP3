@@ -183,6 +183,7 @@ Docker és una plataforma de virtualització de contenidors que facilita la crea
 Aquests són els passos que he seguit:
 
 **Pas 1: Crear el Dockerfile**
+
 Contingut DockerFile:
 ```
 # Especifica la imatge base que s'utilitza, en aquest cas una imatge que té el FFMPEG preinstal·lat
@@ -218,8 +219,11 @@ Paràmetres comanda:
 
 **-it**: Proporciona una interfície interactiva i assigna un terminal al contenidor.
 
---rm: Elimina automàticament el contenidor després que s'atura l'execució.
--v $(pwd):/app: Crea un volum vinculant el directori actual ($(pwd)) amb el directori /app dins el contenidor, permetent la persistència dels arxius.
-ffmpeg-container: És el nom de la imatge a partir de la qual s'executarà el contenidor.
--i BigBuckBunny_SP3.mp4 -vf scale=640:480 output_docker.mp4: Són els arguments per la comanda per defecte (ffmpeg) que s'executarà dins el contenidor. Aquí, intentes redimensionar el vídeo d'entrada BigBuckBunny_SP3.mp4 a 640x480 i desar la sortida a output_docker.mp4.
+**--rm**: Elimina automàticament el contenidor després que s'atura l'execució.
+
+**-v $(pwd):/app**: Crea un volum vinculant el directori actual ($(pwd)) amb el directori /app dins el contenidor, permetent la persistència dels arxius.
+
+**ffmpeg-container**: És el nom de la imatge a partir de la qual s'executarà el contenidor.
+
+**-i BigBuckBunny_SP3.mp4 -vf scale=640:480 output_docker.mp4**: Són els arguments per la comanda per defecte (ffmpeg) que s'executarà dins el contenidor. Es redimensiona  el vídeo d'entrada BigBuckBunny_SP3.mp4 a 640x480 i es desa la sortida a output_docker.mp4.
 
