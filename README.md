@@ -200,10 +200,26 @@ CMD ["ffmpeg"]
 
 **Pas 2: Construir la imatge Docker**
 
-S'executa la següent comanda: 
+Executo la següent comanda: 
 ```
 docker build -t ffmpeg-container .
 ```
 on **docker build**: Construeix una imatge Docker a partir d'un Dockerfile i dels arxius i -t **ffmpeg-container**: Etiqueta la imatge resultant amb el nom ffmpeg-container.
 
+**Pas 3: Executar el contenidor Docker**
+
+S'executa la següent comanda: 
+```
+docker run -it --rm -v $(pwd):/app ffmpeg-container -i BigBuckBunny_SP3.mp4 -vf scale=640:480 output_docker.mp4
+```
+Paràmetres comanda:
+
+**docker run**: Executa un contenidor a partir d'una imatge.
+
+**-it**: Proporciona una interfície interactiva i assigna un terminal al contenidor.
+
+--rm: Elimina automàticament el contenidor després que s'atura l'execució.
+-v $(pwd):/app: Crea un volum vinculant el directori actual ($(pwd)) amb el directori /app dins el contenidor, permetent la persistència dels arxius.
+ffmpeg-container: És el nom de la imatge a partir de la qual s'executarà el contenidor.
+-i BigBuckBunny_SP3.mp4 -vf scale=640:480 output_docker.mp4: Són els arguments per la comanda per defecte (ffmpeg) que s'executarà dins el contenidor. Aquí, intentes redimensionar el vídeo d'entrada BigBuckBunny_SP3.mp4 a 640x480 i desar la sortida a output_docker.mp4.
 
