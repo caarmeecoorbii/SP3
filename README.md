@@ -178,3 +178,22 @@ python3 ex3.py
 
 
 ## Exercici 4: Funcionalitats Docker
+Docker és una plataforma de virtualització de contenidors que facilita la creació, distribució i execució de les aplicacions juntament amb totes les seves dependències en entorns aïllats coneguts com **contenidors**. Això millora la consistència entre desenvolupament i producció, i simplifica la gestió d'aplicacions.
+
+Aquests són els passos que he seguit:
+**Pas 1: Crear el Dockerfile**
+```
+# Usa una imatge base amb FFMPEG preinstal·lat
+FROM jrottenberg/ffmpeg:4.2-ubuntu
+
+# Estableix el directori de treball
+WORKDIR /app
+
+# Copia l'script o els arxius de vídeo que vols processar dins el contenidor
+COPY BigBuckBunny_SP3.mp4 /app/
+
+# Comanda per defecte que s'executarà quan el contenidor comenci
+CMD ["ffmpeg"]
+```
+
+
