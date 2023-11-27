@@ -207,6 +207,10 @@ docker build -t ffmpeg-container .
 ```
 on **docker build**: Construeix una imatge Docker a partir d'un Dockerfile i dels arxius i -t **ffmpeg-container**: Etiqueta la imatge resultant amb el nom ffmpeg-container.
 
+Resultat comanda:
+
+![]()
+
 **Pas 3: Executar el contenidor Docker**
 
 S'executa la següent comanda: 
