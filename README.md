@@ -209,7 +209,7 @@ on **docker build**: Construeix una imatge Docker a partir d'un Dockerfile i del
 
 Resultat comanda:
 
-![]()
+![](https://github.com/caarmeecoorbii/SP3/blob/main/resultat-imatgedocker.png)
 
 **Pas 3: Executar el contenidor Docker**
 
