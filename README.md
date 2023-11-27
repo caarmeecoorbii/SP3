@@ -181,19 +181,29 @@ python3 ex3.py
 Docker és una plataforma de virtualització de contenidors que facilita la creació, distribució i execució de les aplicacions juntament amb totes les seves dependències en entorns aïllats coneguts com **contenidors**. Això millora la consistència entre desenvolupament i producció, i simplifica la gestió d'aplicacions.
 
 Aquests són els passos que he seguit:
+
 **Pas 1: Crear el Dockerfile**
+Contingut DockerFile:
 ```
-# Usa una imatge base amb FFMPEG preinstal·lat
+# Especifica la imatge base que s'utilitza, en aquest cas una imatge que té el FFMPEG preinstal·lat
 FROM jrottenberg/ffmpeg:4.2-ubuntu
 
-# Estableix el directori de treball
+# Estableix el directori de treball dins el contenidor a '/app'.
 WORKDIR /app
 
-# Copia l'script o els arxius de vídeo que vols processar dins el contenidor
+# Copia l'arxiu de vídeo des del sistema del fitxers local al directori '/app' dins el contenidor
 COPY BigBuckBunny_SP3.mp4 /app/
 
 # Comanda per defecte que s'executarà quan el contenidor comenci
 CMD ["ffmpeg"]
 ```
+
+**Pas 2: Construir la imatge Docker**
+
+S'executa la següent comanda: 
+```
+docker build -t ffmpeg-container .
+```
+on **docker build**: Construeix una imatge Docker a partir d'un Dockerfile i dels arxius i -t **ffmpeg-container**: Etiqueta la imatge resultant amb el nom ffmpeg-container.
 
 
