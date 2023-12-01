@@ -1,7 +1,7 @@
 # Sistemes de Codificació d'Àudio i Vídeo: SP3
 
 ## Exercici 1: Conversió mides i codecs
-En aquest primer exercici, he creat una classe anomenada **ConversorVideo** que automatitza la conversió d'un vídeo a diverses resolucions i formats de codec utilitzant FFmpeg.
+En aquest primer exercici, he creat una classe anomenada **ConversorVideo** que automatitza la conversió d'un vídeo a diverses resolucions i formats de codec utilitzant FFmpeg. Li demana a l'usuari amb quines resolucions i amb quin codec vol el vídeo orginal. 
 Aquest és el codi que he implementat:
    ```python
    import subprocess
